@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: arial,sans-serif;
+    font-size: 10px;
+}
+
+header,
+main,
+footer {
+    font-size: 1.5rem;
+}
+
+header {
+    height: 5rem;
+}
+
+header nav {
+    text-align: right;
+    height: 100%;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    height: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    padding: 1rem;
+}
+
